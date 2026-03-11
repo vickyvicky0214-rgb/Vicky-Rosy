@@ -1,0 +1,67 @@
+body{
+margin:0;
+font-family:Poppins;
+background:#070b18;
+color:white;
+text-align:center;
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+
+.hero h1{
+font-size:70px;
+color:#ff4da6;
+animation: glow 2s infinite alternate;
+}
+
+@keyframes glow{
+from{ text-shadow:0 0 10px #ff4da6;}
+to{ text-shadow:0 0 40px #ff4da6;}
+}
+
+.countdown-section{
+padding:80px;
+}
+
+#countdown{
+font-size:35px;
+color:#ffd700;
+}
+
+.love{
+padding:80px;
+max-width:700px;
+margin:auto;
+font-size:22px;
+line-height:1.7;
+}
+
+.timeline{
+padding:80px;
+}
+
+.year{
+margin-bottom:80px;
+}
+
+.year h3{
+font-size:30px;
+color:#ffd700;
+}
+
+.year img{
+width:220px;
+border-radius:15px;
+margin:10px;
+transition:0.3s;
+}
+
+.year img:hover{
+transform:scale(1.1);
+}
